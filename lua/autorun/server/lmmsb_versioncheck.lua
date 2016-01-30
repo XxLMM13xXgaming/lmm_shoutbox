@@ -1,5 +1,5 @@
 --[[You really should not edit this!]]--
-local version = "1.0" -- DO NOT EDIT THIS!
+local version = "1.1" -- DO NOT EDIT THIS!
 local version_url = "https://gist.githubusercontent.com/XxLMM13xXgaming/123374fd244750553e66/raw/lmm_shoutbox" -- DO NOT EDIT THIS!
 local update_url = "https://github.com/XxLMM13xXgaming/lmm_shoutbox" -- DO NOT EDIT THIS!
 local msg_outdated = "You are using a outdated/un-supported version. You are on version "..version.."! go here to update: " .. update_url -- DO NOT EDIT THIS!

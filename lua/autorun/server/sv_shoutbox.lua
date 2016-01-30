@@ -98,9 +98,6 @@ function LMMSBOpenMenu(ply, text)
 	local text = string.lower(text)
 	if(string.sub(text, 0, 100)== "!shoutbox" or string.sub(text, 0, 100)== "/shoutbox" or string.sub(text, 0, 100)== "!sb" or string.sub(text, 0, 100)== "/sb") then
 		LMMSBSendMenu(ply, true)
-		for k, v in pairs(player.GetAll()) do
-			ply:ChatPrint(v:Nick().." "..v:SteamID64())
-		end
 		return ''
 	end
 end 
